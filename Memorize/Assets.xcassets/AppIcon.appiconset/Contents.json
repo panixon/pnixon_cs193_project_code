@@ -1,0 +1,14 @@
+{
+  "images" : [
+    {
+      "filename" : "GokusHaircut_minimalist_app_icon_with_blue_and_green_accents_on_66f10aa6-8bf4-4696-bdf4-9998f74f40a2.png",
+      "idiom" : "universal",
+      "platform" : "ios",
+      "size" : "1024x1024"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
