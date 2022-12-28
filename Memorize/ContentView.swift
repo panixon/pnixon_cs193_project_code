@@ -55,7 +55,9 @@ struct ContentView: View {
     }
     var cars: some View {
         Button(action: {
-            emojiCount = 6
+            if emojiCount > carEmojis.count {
+                emojiCount = carEmojis.count
+            }
             emojis = carEmojis.shuffled()
         }, label: {
             VStack {
@@ -66,7 +68,9 @@ struct ContentView: View {
     }
     var faces: some View {
             Button(action: {
-                emojiCount = 6
+                if emojiCount > faceEmojis.count {
+                    emojiCount = faceEmojis.count
+                }
                 emojis = faceEmojis.shuffled(
                 )}, label: {
             VStack {
@@ -77,7 +81,9 @@ struct ContentView: View {
     }
     var food: some View {
         Button(action: {
-            emojiCount = 6
+            if emojiCount > foodEmojis.count {
+                emojiCount = foodEmojis.count
+            }
             emojis = foodEmojis.shuffled()
         }, label: {
             VStack {
