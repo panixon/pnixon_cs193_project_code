@@ -22,6 +22,7 @@ struct ContentView: View {
     @State var emojis: Array<String> = [
         "🚗", "🚕", "🚙", "🚌", "🚎", "🏎", "🚓", "🚑", "🚒", "🚐", "🛻", "🚚", "🚛", "🚜", "🛵", "🛺", "🚲", "🚝"
     ].shuffled()
+    
     var body: some View {
         VStack {
             Text("Memorize!").font(.largeTitle)
